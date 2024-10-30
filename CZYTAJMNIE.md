@@ -22,6 +22,11 @@ pdftotext dokumenty/Strategia_Cyfryzacji_Polski_28_10_2024_prezentacja.pdf dokum
 
 [LightRAG](https://github.com/HKUDS/LightRAG)
 
+
+### Installacja modelu Bielik v2.3 dla ollama
+
+ollama pull  SpeakLeash/bielik-11b-v2.3-instruct:Q8_0
+
 ### Kod 
 
 python kod/cyfryzacja-rag_ollama.py
