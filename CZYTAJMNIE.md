@@ -1,18 +1,31 @@
 # Analiza dokumentów dotyczących proponowanej strategii cyfryzacji do roku 2035
 
 Orygninalne dwa dokumenty pdf dostępne są na stronie [Ministerstwa Cyfryzacji](https://www.gov.pl/web/cyfryzacja/strategia-cyfryzacji-polski-do-2035-roku)
+w paragrafie Materiały. 
+
+To repozytorium zawiera kopię dokumentów w formacie pdf jak i ich wersję w formacie tekstowy.
 
 dokumenty/Strategia_Cyfryzacji_Państwa_Projekt_do_konsultacji_społecznych.pdf
 dokumenty/Strategia_Cyfryzacji_Polski_28_10_2024_prezentacja.pdf
 
 
-## Konwersja formatu pdf 
+## Konwersja formatu pdf do tekstu
 
 Do analizy tekstu użyta komendy pdftotext  
 
 pdftotext dokumenty/Strategia_Cyfryzacji_Państwa_Projekt_do_konsultacji_społecznych.pdf dokumenty/Strategia_Cyfryzacji_Państwa_Projekt_do_konsultacji_społecznych.tks
 
 pdftotext dokumenty/Strategia_Cyfryzacji_Polski_28_10_2024_prezentacja.pdf dokumenty/Strategia_Cyfryzacji_Polski_28_10_2024_prezentacja.tks
+
+
+## RAG używając LightRAG i ollama
+
+[LightRAG](https://github.com/HKUDS/LightRAG)
+
+### Kod 
+
+python kod/cyfryzacja-rag_ollama.py
+
 
 ## Tekst ze strony Ministerstwa Cyfryzacji z dnia 28.10.2024
 
